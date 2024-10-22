@@ -23,9 +23,14 @@ function Home() {
       <Button
         primary
         label="Descargar CV"
-        href="/cv_2024.pdf"
-        target="_blank" // Abre el PDF en una nueva pestaña
-        rel="noopener noreferrer" // Seguridad para enlaces externos
+        onClick={() => {
+          const link = document.createElement('a');
+          link.href = "https://juan-7u7.github.io/Portafolio-Laboral/cv_2024.pdf"; // URL del CV
+          link.download = "cv_2024.pdf"; // Nombre del archivo al descargar
+          document.body.appendChild(link);
+          link.click(); // Simula el clic para descargar
+          document.body.removeChild(link); // Elimina el enlace después de la descarga
+        }}
         color="accent"  // El color del botón se adapta al tema
         margin="small"
       />
