@@ -1,7 +1,10 @@
 {
-  "name": "porta",
+  "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+    },
   "homepage": "https://juan-7u7.github.io/Portafolio-Laboral",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
