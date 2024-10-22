@@ -23,7 +23,9 @@ function Home() {
       <Button
         primary
         label="Descargar CV"
-        href="/cv.pdf"
+        href="/cv_2024.pdf"
+        target="_blank" // Abre el PDF en una nueva pestaña
+        rel="noopener noreferrer" // Seguridad para enlaces externos
         color="accent"  // El color del botón se adapta al tema
         margin="small"
       />
