@@ -1,0 +1,27 @@
+/* src/components/LottieBackground.css */
+.lottie-background {
+    position: absolute;      /* Para que el fondo se desplace con el contenido */
+    top: 0;
+    left: 0;
+    width: 100%;            /* Ocupar todo el ancho */
+    height: 100%;           /* Ocupar toda la altura */
+    z-index: -1;            /* Asegúrate de que el fondo esté detrás de otros componentes */
+    overflow: hidden;       /* Evitar el desbordamiento */
+  }
+  
+  /* Estilo para computadoras */
+  @media (min-width: 768px) {
+    .lottie-background {
+      background-attachment: fixed;  /* Mantener el fondo estático */
+      background-size: cover;        /* Asegúrate de que cubra todo el fondo */
+    }
+  }
+  
+  /* Estilo para dispositivos móviles */
+  @media (max-width: 767px) {
+    .lottie-background {
+      background-attachment: scroll; /* Permitir el desplazamiento del fondo */
+      background-size: contain;      /* Ajustar para evitar huecos */
+    }
+  }
+  
