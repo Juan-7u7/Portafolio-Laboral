@@ -6,6 +6,7 @@ import Projects from './components/projects';
 import Educacion from './components/educacion';
 import Form from './components/formulario';
 import LottieBackground from './components/LottieBackground';
+import Sidebar from './components/Sidebar';
 
 // Definir el tema
 const theme = {
@@ -26,12 +27,13 @@ const theme = {
 function App() {
   return (
     <Grommet theme={theme} full pad="none" margin="none" >
+      {/* <Sidebar /> */}
       <LottieBackground /> {/* Componente de fondo animado */}
       <Box align="center" pad="medium" style={{ position: 'relative', zIndex: 1 }}>
         <Home /> {/* Página de inicio */}
       </Box>
       <Skills /> {/* Página de habilidades */}
-      <Projects /> {/* Página de proyectos */}
+      {/* <Projects /> Página de proyectos */}
       <Educacion /> {/* Página de educación */}
       <Form /> {/* Página de formulario */}
     </Grommet>

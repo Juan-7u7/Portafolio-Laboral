@@ -1,0 +1,36 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    position: fixed;        /* Mantener fijo a la derecha */
+    top: 0;                /* Comenzar desde la parte superior */
+    right: 0;              /* Alinear a la derecha */
+    width: 250px;          /* Ancho de la barra lateral */
+    height: 100vh;         /* Altura completa de la ventana */
+    background-color: #11999E; /* Color de fondo */
+    color: white;          /* Color de texto */
+    padding: 20px;         /* Espaciado interno */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+    z-index: 10;           /* Asegurarse de que esté encima de otros elementos */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;   /* Espacio debajo del encabezado */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;            /* Sin padding */
+  }
+  
+  .sidebar li {
+    margin: 10px 0;       /* Espaciado entre elementos de la lista */
+  }
+  
+  .sidebar a {
+    color: white;          /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+  }
+  
