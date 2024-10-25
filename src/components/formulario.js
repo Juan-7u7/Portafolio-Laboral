@@ -40,7 +40,7 @@ function ContactForm() {
         </FormField>
 
         <Box direction="row" justify="center" margin={{ top: "medium" }}>
-          <Button type="submit" label="Enviar" primary color="accent" />
+          <Button type="submit" label={isSent ? "Enviado" : "Enviar"} primary color="accent" disabled={isSent} />
         </Box>
       </Form>
 
