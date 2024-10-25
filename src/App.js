@@ -33,7 +33,8 @@ function App() {
         <Home /> {/* Página de inicio */}
       </Box>
       <Skills /> {/* Página de habilidades */}
-      {/* <Projects /> Página de proyectos */}
+      <Projects /> 
+      
       <Educacion /> {/* Página de educación */}
       <Form /> {/* Página de formulario */}
     </Grommet>

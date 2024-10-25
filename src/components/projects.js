@@ -5,29 +5,29 @@ import { FaGithub, FaAndroid, FaReact, FaNetworkWired } from 'react-icons/fa'; /
 function Projects() {
   const projects = [
     {
-      title: 'Aplicación Android para Gestión de Pedidos',
-      description: 'Aplicación móvil desarrollada en Android Studio que permite gestionar pedidos de una tienda en línea.',
+      title: 'Aplicación Android para Gestión de cuidado de mascotas',
+      description: 'Aplicación móvil desarrollada en Android Studio que permite gestionar cartilla digital de mascotas.',
       technologies: ['Android Studio', 'Java', 'SQLite'],
-      github: 'https://github.com/usuario/aplicacion-android',
-      image: '/images/android-app.png', // Imagen de ejemplo
+      // github: 'https://github.com/usuario/aplicacion-android',
+      images: ['/prt1.jpg', 'prt2.jpg', 'prt3.jpg'], // Lista de imágenes para el carrusel
       icon: <FaAndroid size="48px" /> // Ícono de Android
     },
     {
-      title: 'Sitio web con React',
+      title: 'Este Sitio web esta hecho con React',
       description: 'Sitio web creado con React para mostrar un portafolio personal y proyectos destacados.',
       technologies: ['React', 'JavaScript', 'CSS'],
-      github: 'https://github.com/usuario/sitio-web-react',
-      image: '/images/react-website.png', // Imagen de ejemplo
+      // github: 'https://github.com/usuario/sitio-web-react',
+      // image: '/images/react-website.png', // Imagen de ejemplo
       icon: <FaReact size="48px" /> // Ícono de React
     },
-    {
-      title: 'Proyecto de Redes con Cisco',
-      description: 'Configuración de redes y routers utilizando herramientas de Cisco para mejorar la conectividad de una empresa.',
-      technologies: ['Cisco', 'Redes', 'Routing'],
-      github: 'https://github.com/usuario/proyecto-redes',
-      image: '/images/cisco-project.png', // Imagen de ejemplo
-      icon: <FaNetworkWired size="48px" /> // Ícono de redes (Cisco)
-    },
+    // {
+    //   title: 'Proyecto de Redes con Cisco',
+    //   description: 'Configuración de redes y routers utilizando herramientas de Cisco para mejorar la conectividad de una empresa.',
+    //   technologies: ['Cisco', 'Redes', 'Routing'],
+    //   github: 'https://github.com/usuario/proyecto-redes',
+    //   image: '/images/cisco-project.png', // Imagen de ejemplo
+    //   icon: <FaNetworkWired size="48px" /> // Ícono de redes (Cisco)
+    // },
   ];
 
   return (
