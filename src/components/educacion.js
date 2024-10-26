@@ -1,57 +1,57 @@
 import React from 'react';
 import { Box, Heading, Text } from 'grommet';
-import { FaGraduationCap, FaCertificate, FaProjectDiagram } from 'react-icons/fa'; // Importar íconos
+import { FaGraduationCap, FaCertificate, FaProjectDiagram } from 'react-icons/fa'; // Import icons
 
 function Experience() {
   return (
-    <Box pad="large" background="background" align="center" justify="center" id="educacion">
-      {/* Título de la sección con ícono */}
+    <Box pad="large" background="background" align="center" justify="center" id="education">
+      {/* Section title with icon */}
       <Heading level="2" color="brand" textAlign="center" margin={{ top: "20px", bottom: "medium" }}>
-        <FaGraduationCap size="48px" style={{ marginRight: '10px' }} /> Experiencia y Educación
+        <FaGraduationCap size="48px" style={{ marginRight: '10px' }} /> Experience and Education
       </Heading>
 
-      {/* Sección de Educación con ícono */}
+      {/* Education section with icon */}
       <Heading level="3" color="accent" margin={{ top: "20px", bottom: "small" }} textAlign="center">
-        <FaGraduationCap style={{ marginRight: '10px' }} /> Educación
+        <FaGraduationCap style={{ marginRight: '10px' }} /> Education
       </Heading>
       <Box width="medium" margin={{ bottom: 'medium' }}>
         <Text size="medium" color="text" textAlign="center">
-          Ingeniería en Sistemas Computacionales
+          Computer Systems Engineering
         </Text>
         <Text size="small" color="text" textAlign="center">
-        Instituto Tecnológico de Tehuacán. (2019 - Actualidad)
+          Tehuacán Institute of Technology. (2019 - Present)
         </Text>
       </Box>
 
-      {/* Sección de Cursos y Certificaciones con ícono */}
+      {/* Courses and Certifications section with icon */}
       <Heading level="3" color="accent" margin={{ top: "20px", bottom: "small" }} textAlign="center">
-        <FaCertificate style={{ marginRight: '10px' }} /> Cursos y Certificaciones
+        <FaCertificate style={{ marginRight: '10px' }} /> Courses and Certifications
       </Heading>
       <Box width="medium" margin={{ bottom: 'medium' }}>
         <Text size="medium" color="text" textAlign="center">
           Oracle ONE G6 (Frontend Developer)
         </Text>
         <Text size="medium" color="text" textAlign="center">
-          Certificaciones con React
+          Certifications in React
         </Text>
         <Text size="medium" color="text" textAlign="center">
-          Certificaciones con JavaScript
+          Certifications in JavaScript
         </Text>
       </Box>
 
-      {/* Sección de Proyectos Académicos con ícono */}
+      {/* Relevant Academic Projects section with icon */}
       <Heading level="3" color="accent" margin={{ top: "20px", bottom: "small" }} textAlign="center">
-        <FaProjectDiagram style={{ marginRight: '10px' }} /> Proyectos Académicos Relevantes
+        <FaProjectDiagram style={{ marginRight: '10px' }} /> Relevant Academic Projects
       </Heading>
       <Box width="medium" margin={{ bottom: 'medium' }}>
         <Text size="medium" color="text" textAlign="center">
-          Desarrollo de aplicaciones Android.
+          Android application development.
         </Text>
         <Text size="medium" color="text" textAlign="center">
-          Desarrollo de aplicaciones Web.
+          Web application development.
         </Text>
         {/* <Text size="medium" color="text" textAlign="center">
-          Proyecto de simulación de redes utilizando herramientas Cisco.
+          Network simulation project using Cisco tools.
         </Text> */}
       </Box>
     </Box>

@@ -8,30 +8,30 @@ function Home() {
       fill
       align="center"
       justify="center"
-      background="background"  // El color de fondo se adapta al tema
+      background="background"  // The background color adapts to the theme
       pad="medium"
     >
       <Heading level="1" margin="none" color="brand">
-        ¡Hola, soy Juan Carlos!
+        Hi, I'm Juan Carlos!
       </Heading>
       <Text size="large" margin="small" color="text">
-        Soy estudiante de Ingeniería en Sistemas Computacionales, apasionado por el desarrollo de software y con experiencia en lenguajes como Java, Python, C#, entre otros.
+        I am a Computer Systems Engineering student, passionate about software development, with experience in languages such as Java, Python, C#, and more.
       </Text>
       <Text size="medium" margin="small" color="text">
-        Actualmente busco un lugar para realizar prácticas profesionales.
+        I am currently looking for a place to do an internship.
       </Text>
       <Button
         primary
-        label="Descargar CV"
+        label="Download CV"
         onClick={() => {
           const link = document.createElement('a');
-          link.href = "https://juan-7u7.github.io/Portafolio-Laboral/cv_2024.pdf"; // URL del CV
-          link.download = "cv_2024.pdf"; // Nombre del archivo al descargar
+          link.href = "https://juan-7u7.github.io/Portafolio-Laboral/cv_2024.pdf"; // CV URL
+          link.download = "cv_2024.pdf"; // Downloaded file name
           document.body.appendChild(link);
-          link.click(); // Simula el clic para descargar
-          document.body.removeChild(link); // Elimina el enlace después de la descarga
+          link.click(); // Simulate click to download
+          document.body.removeChild(link); // Remove link after download
         }}
-        color="accent"  // El color del botón se adapta al tema
+        color="accent"  // Button color adapts to the theme
         margin="small"
       />
     </Box>

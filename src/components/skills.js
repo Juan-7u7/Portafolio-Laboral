@@ -1,31 +1,31 @@
 import React from 'react';
 import { Box, Heading, Text } from 'grommet';
-import { DiJava, DiJavascript1, DiPython, DiReact, DiAndroid, DiDatabase } from 'react-icons/di'; // Importar íconos desde react-icons
-import { SiR, SiCsharp, SiVuedotjs, SiCodeigniter, SiPython } from 'react-icons/si'; // Otros íconos adicionales
-import { FaTools, FaLaptopCode, FaProjectDiagram } from 'react-icons/fa'; // Íconos adicionales para secciones
+import { DiJava, DiJavascript1, DiPython, DiReact, DiAndroid, DiDatabase } from 'react-icons/di'; // Import icons from react-icons
+import { SiR, SiCsharp, SiVuedotjs, SiCodeigniter, SiPython } from 'react-icons/si'; // Additional icons
+import { FaTools, FaLaptopCode, FaProjectDiagram } from 'react-icons/fa'; // Additional icons for sections
 
 function Skills() {
   return (
     <Box
       id='skills'
-      fill           // Hace que el contenedor ocupe toda la pantalla
-      align="center" // Centra todo el contenido horizontalmente
-      justify="center" // Centra todo el contenido verticalmente
-      background="background" // Usa el color de fondo del tema
-      pad="large" // Espaciado interno (padding)
+      fill           // Makes the container take the full screen
+      align="center" // Centers all content horizontally
+      justify="center" // Centers all content vertically
+      background="background" // Uses theme background color
+      pad="large" // Padding
     >
-      {/* Título principal de la sección con ícono */}
+      {/* Main section title with icon */}
       <Heading level="2" textAlign="center" margin="none" color="brand">
-        <FaLaptopCode size="48px" style={{ marginRight: '10px' }} /> Habilidades Técnicas
+        <FaLaptopCode size="48px" style={{ marginRight: '10px' }} /> Technical Skills
       </Heading>
 
-      {/* Sección de Lenguajes de Programación */}
+      {/* Programming Languages Section */}
       <Heading level="3" color="accent" margin={{ top: "20px", bottom: "medium" }} textAlign="center">
-        <FaTools style={{ marginRight: '10px' }} /> Lenguajes de Programación
+        <FaTools style={{ marginRight: '10px' }} /> Programming Languages
       </Heading>
-      {/* Fila para mostrar los lenguajes en horizontal */}
+      {/* Row to display languages horizontally */}
       <Box direction="row" gap="medium" wrap justify="center">
-        {/* Cada caja contiene un ícono y el nombre del lenguaje */}
+        {/* Each box contains an icon and the language name */}
         <Box align="center">
           <DiJava size="48px" />
           <Text color="text">Java</Text>
@@ -52,11 +52,11 @@ function Skills() {
         </Box>
       </Box>
 
-      {/* Sección de Herramientas y Frameworks */}
+      {/* Tools and Frameworks Section */}
       <Heading level="3" color="accent" margin={{ top: "100px", bottom: "medium" }} textAlign="center">
-        <FaProjectDiagram style={{ marginRight: '10px' }} /> Herramientas y Frameworks
+        <FaProjectDiagram style={{ marginRight: '10px' }} /> Tools and Frameworks
       </Heading>
-      {/* Fila para mostrar las herramientas en horizontal */}
+      {/* Row to display tools horizontally */}
       <Box direction="row" gap="medium" wrap justify="center">
         <Box align="center">
           <DiReact size="48px" />
@@ -80,12 +80,12 @@ function Skills() {
         </Box>
       </Box>
 
-      {/* Sección de Áreas de Especialización */}
+      {/* Areas of Expertise Section */}
       <Heading level="3" color="accent" margin={{ top: "100px", bottom: "medium" }} textAlign="center">
-        <FaTools style={{ marginRight: '10px' }} /> Áreas de Especialización
+        <FaTools style={{ marginRight: '10px' }} /> Areas of Expertise
       </Heading>
       <Text size="large" textAlign="center" color="text">
-        Desarrollo Android, Desarrollo Web, Redes Cisco
+        Android Development, Web Development, Cisco Networking
       </Text>
     </Box>
   );
