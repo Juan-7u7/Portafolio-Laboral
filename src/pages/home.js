@@ -25,8 +25,8 @@ function Home() {
         label="Download CV"
         onClick={() => {
           const link = document.createElement('a');
-          link.href = "https://juan-7u7.github.io/Portafolio-Laboral/cv_2024.pdf"; // CV URL
-          link.download = "cv_2024.pdf"; // Downloaded file name
+          link.href = "https://juan-7u7.github.io/Portafolio-Laboral/cv_202477.pdf"; // CV URL
+          link.download = "cv_202477.pdf"; // Downloaded file name
           document.body.appendChild(link);
           link.click(); // Simulate click to download
           document.body.removeChild(link); // Remove link after download
