@@ -85,7 +85,7 @@ function Skills() {
         <FaTools style={{ marginRight: '10px' }} /> Areas of Expertise
       </Heading>
       <Text size="large" textAlign="center" color="text">
-        Android Development, Web Development, Cisco Networking
+        React development, React Native, Frontend Development & Cisco Networking
       </Text>
     </Box>
   );
