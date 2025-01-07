@@ -14,7 +14,7 @@ function Projects() {
     },
     {
       title: 'This Website is Built with React',
-      description: 'Website created with React to showcase a personal portfolio and featured projects.',
+      description: 'Websites created with React to showcase a personal portfolio and featured projects.',
       technologies: ['React', 'JavaScript', 'CSS'],
       // github: 'https://github.com/usuario/react-website',
       // image: '/images/react-website.png', // Example image
