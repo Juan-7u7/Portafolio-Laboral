@@ -5,12 +5,12 @@ import { FaGithub, FaAndroid, FaReact, FaNetworkWired } from 'react-icons/fa'; /
 function Projects() {
   const projects = [
     {
-      title: 'Android App for Pet Care Management',
-      description: 'Mobile application developed in Android Studio to manage pets’ digital health records.',
-      technologies: ['Android Studio', 'Java', 'SQLite'],
-      // github: 'https://github.com/usuario/android-app',
+      title: 'web platform for job search',
+      description: 'A job search platform built for Tehuacán using React, Express, and Next.js.',
+      technologies: ['React', 'Material UI', 'PhpMyAdmin'],
+      link: 'https://tempop.netlify.app/', // Added the link here
       images: ['/prt1.jpg', 'prt2.jpg', 'prt3.jpg'], // List of images for the carousel
-      icon: <FaAndroid size="48px" /> // Android icon
+      icon: <FaReact size="48px" /> // Android icon
     },
     {
       title: 'This Website is Built with React',
@@ -64,11 +64,11 @@ function Projects() {
             ))}
           </Box>
 
-          {/* GitHub repository link */}
-          {project.github && (
+          {/* Link to the project */}
+          {project.link && (
             <Anchor
-              href={project.github}
-              label="View on GitHub"
+              href={project.link}
+              label="Visit Project"
               color="accent"
               target="_blank"
               margin={{ top: 'small' }}
