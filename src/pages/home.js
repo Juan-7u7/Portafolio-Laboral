@@ -12,13 +12,13 @@ function Home() {
       pad="medium"
     >
       <Heading level="1" margin="none" color="brand">
-        Hi, I'm Juan Carlos!
+        Hi, I'm Juan Carlos Hernandez Trujillo!
       </Heading>
       <Text size="large" margin="small" color="text">
-        I am a Computer Systems Engineering student, passionate about software development, with experience in languages such as Java, Python, C#, and more.
+      I am a Computer Systems Engineer with a deep passion for software development and a strong desire to contribute to meaningful projects. I have honed my skills in programming languages such as Java, Python, and C#, among others, through both academic and personal experiences. My enthusiasm for technology drives me to continuously expand my knowledge and stay updated with industry trends. I am highly motivated to apply my skills and creativity in a professional setting, and I am eager to secure my first opportunity as a developer to grow and make a positive impact in the field.I am a Computer Systems Engineering student, passionate about software development, with experience in languages such as Java, Python, C#, and more.
       </Text>
       <Text size="medium" margin="small" color="text">
-        I am currently looking for a place to do an internship.
+      I am a Computer Systems Engineer with a strong passion for software development and a commitment to contributing to impactful projects. Proficient in languages such as Java, Python, and C#, I continuously strive to expand my knowledge and stay ahead in the ever-evolving tech industry. I am currently available and eager to bring my skills, creativity, and dedication to your service, ready to take on new challenges and make a meaningful contribution to your team.
       </Text>
       <Button
         primary
