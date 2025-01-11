@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portafolio-Laboral/static/css/main.30b8978f.css",
-    "main.js": "/Portafolio-Laboral/static/js/main.aa34ef7c.js",
+    "main.js": "/Portafolio-Laboral/static/js/main.f14340a0.js",
     "static/js/453.7d1ffe6d.chunk.js": "/Portafolio-Laboral/static/js/453.7d1ffe6d.chunk.js",
     "index.html": "/Portafolio-Laboral/index.html",
     "main.30b8978f.css.map": "/Portafolio-Laboral/static/css/main.30b8978f.css.map",
-    "main.aa34ef7c.js.map": "/Portafolio-Laboral/static/js/main.aa34ef7c.js.map",
+    "main.f14340a0.js.map": "/Portafolio-Laboral/static/js/main.f14340a0.js.map",
     "453.7d1ffe6d.chunk.js.map": "/Portafolio-Laboral/static/js/453.7d1ffe6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30b8978f.css",
-    "static/js/main.aa34ef7c.js"
+    "static/js/main.f14340a0.js"
   ]
 }
